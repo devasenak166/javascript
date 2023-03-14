@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Write a program that takes three numbers as input and determines if they
+      form a Pythagorean triplet.
+    </h1>
+    <script>
+      let number1 = +prompt("Enter the first number:");
+      let number2 = +prompt("Enter the second number:");
+      let number3 = +prompt("Enter the third number:");
+      if (
+        number1 ** 2 + number2 ** 2 == number3 ** 2 ||
+        number2 ** 2 + number3 ** 2 == number1 ** 2 ||
+        number1 ** 2 + number3 ** 2 == number2 ** 2
+      ) {
+        console.log("Forms Pythagorean triplet.");
+      } else {
+        console.log("Can't form Pythagorean triplet.");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Write a Program to check if a number is a palindrome</h1>
+    <script>
+      let word = prompt("enter the word");
+      let wordReverse = word.split("").reverse().join("");
+      // console.log(word.split("").reverse().join(""));
+      if (word == wordReverse) {
+        console.log("palindrome");
+      } else {
+        console.log("not a palindrome");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Write a program that takes a string and returns a new string with all the
+      vowels removed.
+    </h1>
+    <script>
+      let word = prompt("enter the word");
+      let vowels = word.split("");
+      console.log(vowels);
+      console.log(vowels.length);
+      let result = "";
+      for (let i = 0; i < vowels.length; i++) {
+        if (
+          vowels[i] == "a" ||
+          "e" ||
+          "i" ||
+          "o" ||
+          "u" ||
+          "A" ||
+          "I" ||
+          "E" ||
+          "O" ||
+          "U"
+        ) {
+          continue;
+        }
+
+        result += vowels[i];
+      }
+
+      console.log(result);
+    </script>
+  </body>
+</html>

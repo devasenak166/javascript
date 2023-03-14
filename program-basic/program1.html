@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Write a program that checks if a number is positive, negative, or zero,
+      and logs the result to the console using conditional operators.
+    </h1>
+    <script>
+      let number = +prompt("enter the number:");
+      if (number == 0) {
+        console.log(`It is zero`);
+      } else if (number > 0) {
+        console.log(`${number} is a positive number`);
+      } else if (number < 0) {
+        console.log(`${number} is a negative number`);
+      } else {
+        console.log("enter valid number");
+      }
+    </script>
+  </body>
+</html>

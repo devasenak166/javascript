@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Write a program that takes three integers as input and outputs whether the
+      three integers can form a valid triangle using a conditional statement and
+      logical operators.
+    </h1>
+    <script>
+      let number1 = prompt("enter the first value:");
+      let number2 = prompt("enter the second number:");
+      let number3 = prompt("enter the third number:");
+      if (
+        number1 + number2 > number3 &&
+        number2 + number3 > number1 &&
+        number1 + number3 > number2
+      ) {
+        console.log("Wow ,Forms Triangle !...");
+      } else {
+        console.log("Oops, Can't form Triangle");
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Write a program that takes a number as input and returns a boolean
+      indicating if it is a perfect square.
+    </h1>
+    <script>
+      let number = +prompt("enter the number:");
+      square_root = number ** 0.5;
+      // console.log(square_root);
+      if (square_root * square_root == number) {
+        console.log("Perfect square");
+      } else {
+        console.log("Not a perfect square");
+      }
+    </script>
+  </body>
+</html>
